@@ -1,189 +1,208 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Богдан — Блог гітариста</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="google-site-verification" content="D_DWETJ24vAJRWNhHMspsJ8sa6aXUB9qctTccngE2GE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Богдан — Блог гітариста</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet" />
 </head>
+
 <body>
 
-  <!-- HEADER -->
-  <header class="hero">
-    <div class="hero-bg"></div>
-    <nav class="nav">
-      <div class="logo">🎸 Богдан</div>
-      <ul class="nav-links">
-        <li><a href="#about">Про мене</a></li>
-        <li><a href="#posts">Статті</a></li>
-        <li><a href="#tips">Поради</a></li>
-        <li><a href="#contact">Контакти</a></li>
-      </ul>
-    </nav>
-    <div class="hero-content">
-      <p class="hero-label">Блог гітариста</p>
-      <h1 class="hero-title">Музика,<br><em>що йде від серця</em></h1>
-      <p class="hero-sub">Поп, акустика, душа — ділюся своїм шляхом у музиці</p>
-      <a href="#posts" class="hero-btn">Читати блог ↓</a>
-    </div>
-    <div class="hero-strings">
-      <span></span><span></span><span></span><span></span><span></span><span></span>
-    </div>
-  </header>
-
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="container">
-      <div class="about-grid">
-        <div class="about-emoji">🎵</div>
-        <div class="about-text">
-          <h2>Привіт, я Богдан</h2>
-          <p>Граю на гітарі вже кілька років. Моя пристрасть — акустична музика і поп-мелодії, які чіпляють за душу. Цей блог — місце, де я ділюся своїм досвідом, порадами і музичними відкриттями.</p>
-          <p>Вірю, що кожен може навчитися грати — головне почати.</p>
-          <div class="tags">
-            <span>🎸 Акустика</span>
-            <span>🎶 Поп</span>
-            <span>🎼 Fingerpicking</span>
-            <span>🎵 Каверс</span>
-          </div>
+    <!-- HEADER -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <nav class="nav">
+            <div class="logo">🎸 Богдан</div>
+            <ul class="nav-links">
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#posts">Статті</a></li>
+                <li><a href="#tips">Поради</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <p class="hero-label">Блог гітариста</p>
+            <h1 class="hero-title">Музика,<br><em>що йде від серця</em></h1>
+            <p class="hero-sub">Поп, акустика, душа — ділюся своїм шляхом у музиці</p>
+            <a href="#posts" class="hero-btn">Читати блог ↓</a>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOG POSTS -->
-  <section class="posts" id="posts">
-    <div class="container">
-      <h2 class="section-title">Статті</h2>
-      <div class="posts-grid">
-
-        <article class="post-card">
-          <div class="post-icon">🎸</div>
-          <div class="post-meta">5 хвилин читання</div>
-          <h3>Як я почав грати на гітарі</h3>
-          <p>Моя перша гітара, перші акорди і помилки, які зробили мене кращим музикантом...</p>
-          <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
-          <div class="post-full hidden">
-            <p>Все почалося з того, що я почув пісню, яка мене вразила. Я зрозумів, що хочу грати так само. Перша гітара була дешева і не дуже зручна, але вона навчила мене головному — терпінню.</p>
-            <p>Перші місяці були важкими: болячі пальці, незграбні акорди, але поступово все ставало на місце. Найважливіше — грати щодня, хоча б 15 хвилин.</p>
-          </div>
-        </article>
-
-        <article class="post-card">
-          <div class="post-icon">🎵</div>
-          <div class="post-meta">7 хвилин читання</div>
-          <h3>Топ-5 акордів для початківців</h3>
-          <p>З цими п'ятьма акордами можна зіграти сотні популярних пісень. Починаємо з найпростішого...</p>
-          <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
-          <div class="post-full hidden">
-            <p><strong>Am, C, G, F, E</strong> — ці акорди є основою більшості поп-пісень. Спочатку вивчіть Am і C — вони найлегші для пальців.</p>
-            <p>Практикуйте переходи між акордами повільно, потім збільшуйте темп. Метроном — ваш найкращий друг на початку навчання.</p>
-          </div>
-        </article>
-
-        <article class="post-card">
-          <div class="post-icon">🎼</div>
-          <div class="post-meta">10 хвилин читання</div>
-          <h3>Fingerpicking: з чого почати</h3>
-          <p>Техніка перебору пальцями додає глибину і теплоту звуку. Розповідаю, як я її освоїв...</p>
-          <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
-          <div class="post-full hidden">
-            <p>Fingerpicking — це коли ви граєте кожну струну окремим пальцем, а не медіатором. Це створює багатший, глибший звук.</p>
-            <p>Починайте з простого паттерну: великий палець грає басову струну (6, 5 або 4), а решта пальців грають струни 3, 2, 1. Практикуйте на акорді Am поки рух не стане автоматичним.</p>
-          </div>
-        </article>
-
-        <article class="post-card">
-          <div class="post-icon">🎤</div>
-          <div class="post-meta">6 хвилин читання</div>
-          <h3>Як грати і співати одночасно</h3>
-          <p>Один з найскладніших навичок для гітариста. Ось мій спосіб це опанувати...</p>
-          <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
-          <div class="post-full hidden">
-            <p>Секрет простий: гра на гітарі має стати автоматичною. Якщо ви думаєте про акорди під час гри — ви ще не готові додавати спів.</p>
-            <p>Спочатку вивчіть пісню повністю на гітарі. Потім наспівуйте мелодію без слів. І лише потім додавайте текст. Поступово, по фразах.</p>
-          </div>
-        </article>
-
-        <article class="post-card">
-          <div class="post-icon">🛠️</div>
-          <div class="post-meta">8 хвилин читання</div>
-          <h3>Як вибрати першу гітару</h3>
-          <p>Бюджет, розмір, матеріал — на що звертати увагу при виборі інструмента...</p>
-          <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
-          <div class="post-full hidden">
-            <p>Для початківця рекомендую акустичну гітару з нейлоновими струнами — вони м'якші для пальців. Бюджет від 2000-3000 грн цілком підійде для старту.</p>
-            <p>Головне — купити гітару в магазині, де можна її потримати в руках. Розмір корпусу важливий: він має бути зручним саме для вас.</p>
-          </div>
-        </article>
-
-        <article class="post-card">
-          <div class="post-icon">📱</div>
-          <div class="post-meta">4 хвилини читання</div>
-          <h3>Застосунки для гітаристів</h3>
-          <p>Тюнер, метроном, акорди — найкращі безкоштовні додатки для практики...</p>
-          <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
-          <div class="post-full hidden">
-            <p><strong>GuitarTuna</strong> — найкращий тюнер. <strong>Metronome Beats</strong> — зручний метроном. <strong>Ultimate Guitar</strong> — мільйони табулатур і акордів.</p>
-            <p>Також раджу додаток <strong>Yousician</strong> — він навчає гри в ігровому форматі, як Duolingo для гітари. Ідеально для самонавчання.</p>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- TIPS -->
-  <section class="tips" id="tips">
-    <div class="container">
-      <h2 class="section-title">Швидкі поради</h2>
-      <div class="tips-grid">
-        <div class="tip-card">
-          <span class="tip-num">01</span>
-          <p>Грай щодня хоча б 15 хвилин — регулярність важливіша за тривалість</p>
+        <div class="hero-strings">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
         </div>
-        <div class="tip-card">
-          <span class="tip-num">02</span>
-          <p>Використовуй метроном з першого дня — відчуття ритму важливіше за швидкість</p>
-        </div>
-        <div class="tip-card">
-          <span class="tip-num">03</span>
-          <p>Вчи пісні, які тобі подобаються — мотивація важливіша за "правильні" вправи</p>
-        </div>
-        <div class="tip-card">
-          <span class="tip-num">04</span>
-          <p>Записуй себе на відео — це найчесніший спосіб чути свої помилки</p>
-        </div>
-        <div class="tip-card">
-          <span class="tip-num">05</span>
-          <p>Не поспішай — краще повільно і правильно, ніж швидко і з помилками</p>
-        </div>
-        <div class="tip-card">
-          <span class="tip-num">06</span>
-          <p>Слухай багато музики — тренує слух і надихає на нові ідеї</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>Зв'яжись зі мною</h2>
-      <p>Є питання про гітару або просто хочеш поговорити про музику?</p>
-      <div class="contact-links">
-        <a href="mailto:bogdan@example.com" class="contact-btn">✉️ Написати листа</a>
-        <a href="#" class="contact-btn">📸 Instagram</a>
-        <a href="#" class="contact-btn">▶️ YouTube</a>
-      </div>
-    </div>
-  </section>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-emoji">🎵</div>
+                <div class="about-text">
+                    <h2>Привіт, я Богдан</h2>
+                    <p>Граю на гітарі вже кілька років. Моя пристрасть — акустична музика і поп-мелодії, які чіпляють за
+                        душу. Цей блог — місце, де я ділюся своїм досвідом, порадами і музичними відкриттями.</p>
+                    <p>Вірю, що кожен може навчитися грати — головне почати.</p>
+                    <div class="tags">
+                        <span>🎸 Акустика</span>
+                        <span>🎶 Поп</span>
+                        <span>🎼 Fingerpicking</span>
+                        <span>🎵 Каверс</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Богдан — Блог гітариста. Зроблено з 🎸 і любов'ю до музики.</p>
-  </footer>
+    <!-- BLOG POSTS -->
+    <section class="posts" id="posts">
+        <div class="container">
+            <h2 class="section-title">Статті</h2>
+            <div class="posts-grid">
 
-  <script src="script.js"></script>
+                <article class="post-card">
+                    <div class="post-icon">🎸</div>
+                    <div class="post-meta">5 хвилин читання</div>
+                    <h3>Як я почав грати на гітарі</h3>
+                    <p>Моя перша гітара, перші акорди і помилки, які зробили мене кращим музикантом...</p>
+                    <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
+                    <div class="post-full hidden">
+                        <p>Все почалося з того, що я почув пісню, яка мене вразила. Я зрозумів, що хочу грати так само.
+                            Перша гітара була дешева і не дуже зручна, але вона навчила мене головному — терпінню.</p>
+                        <p>Перші місяці були важкими: болячі пальці, незграбні акорди, але поступово все ставало на
+                            місце. Найважливіше — грати щодня, хоча б 15 хвилин.</p>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-icon">🎵</div>
+                    <div class="post-meta">7 хвилин читання</div>
+                    <h3>Топ-5 акордів для початківців</h3>
+                    <p>З цими п'ятьма акордами можна зіграти сотні популярних пісень. Починаємо з найпростішого...</p>
+                    <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
+                    <div class="post-full hidden">
+                        <p><strong>Am, C, G, F, E</strong> — ці акорди є основою більшості поп-пісень. Спочатку вивчіть
+                            Am і C — вони найлегші для пальців.</p>
+                        <p>Практикуйте переходи між акордами повільно, потім збільшуйте темп. Метроном — ваш найкращий
+                            друг на початку навчання.</p>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-icon">🎼</div>
+                    <div class="post-meta">10 хвилин читання</div>
+                    <h3>Fingerpicking: з чого почати</h3>
+                    <p>Техніка перебору пальцями додає глибину і теплоту звуку. Розповідаю, як я її освоїв...</p>
+                    <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
+                    <div class="post-full hidden">
+                        <p>Fingerpicking — це коли ви граєте кожну струну окремим пальцем, а не медіатором. Це створює
+                            багатший, глибший звук.</p>
+                        <p>Починайте з простого паттерну: великий палець грає басову струну (6, 5 або 4), а решта
+                            пальців грають струни 3, 2, 1. Практикуйте на акорді Am поки рух не стане автоматичним.</p>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-icon">🎤</div>
+                    <div class="post-meta">6 хвилин читання</div>
+                    <h3>Як грати і співати одночасно</h3>
+                    <p>Один з найскладніших навичок для гітариста. Ось мій спосіб це опанувати...</p>
+                    <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
+                    <div class="post-full hidden">
+                        <p>Секрет простий: гра на гітарі має стати автоматичною. Якщо ви думаєте про акорди під час гри
+                            — ви ще не готові додавати спів.</p>
+                        <p>Спочатку вивчіть пісню повністю на гітарі. Потім наспівуйте мелодію без слів. І лише потім
+                            додавайте текст. Поступово, по фразах.</p>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-icon">🛠️</div>
+                    <div class="post-meta">8 хвилин читання</div>
+                    <h3>Як вибрати першу гітару</h3>
+                    <p>Бюджет, розмір, матеріал — на що звертати увагу при виборі інструмента...</p>
+                    <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
+                    <div class="post-full hidden">
+                        <p>Для початківця рекомендую акустичну гітару з нейлоновими струнами — вони м'якші для пальців.
+                            Бюджет від 2000-3000 грн цілком підійде для старту.</p>
+                        <p>Головне — купити гітару в магазині, де можна її потримати в руках. Розмір корпусу важливий:
+                            він має бути зручним саме для вас.</p>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-icon">📱</div>
+                    <div class="post-meta">4 хвилини читання</div>
+                    <h3>Застосунки для гітаристів</h3>
+                    <p>Тюнер, метроном, акорди — найкращі безкоштовні додатки для практики...</p>
+                    <button class="read-more" onclick="togglePost(this)">Читати далі ↓</button>
+                    <div class="post-full hidden">
+                        <p><strong>GuitarTuna</strong> — найкращий тюнер. <strong>Metronome Beats</strong> — зручний
+                            метроном. <strong>Ultimate Guitar</strong> — мільйони табулатур і акордів.</p>
+                        <p>Також раджу додаток <strong>Yousician</strong> — він навчає гри в ігровому форматі, як
+                            Duolingo для гітари. Ідеально для самонавчання.</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TIPS -->
+    <section class="tips" id="tips">
+        <div class="container">
+            <h2 class="section-title">Швидкі поради</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <span class="tip-num">01</span>
+                    <p>Грай щодня хоча б 15 хвилин — регулярність важливіша за тривалість</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-num">02</span>
+                    <p>Використовуй метроном з першого дня — відчуття ритму важливіше за швидкість</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-num">03</span>
+                    <p>Вчи пісні, які тобі подобаються — мотивація важливіша за "правильні" вправи</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-num">04</span>
+                    <p>Записуй себе на відео — це найчесніший спосіб чути свої помилки</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-num">05</span>
+                    <p>Не поспішай — краще повільно і правильно, ніж швидко і з помилками</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-num">06</span>
+                    <p>Слухай багато музики — тренує слух і надихає на нові ідеї</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Зв'яжись зі мною</h2>
+            <p>Є питання про гітару або просто хочеш поговорити про музику?</p>
+            <div class="contact-links">
+                <a href="mailto:bogdan@example.com" class="contact-btn">✉️ Написати листа</a>
+                <a href="#" class="contact-btn">📸 Instagram</a>
+                <a href="#" class="contact-btn">▶️ YouTube</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Богдан — Блог гітариста. Зроблено з 🎸 і любов'ю до музики.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
